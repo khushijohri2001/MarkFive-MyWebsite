@@ -564,9 +564,6 @@ font-size: x-large;
     margin-bottom: 4rem;
 }
 
-.img2 img{
-    width: 25rem;
-    border: 0.4rem solid #353535;
-    border-radius: 0.6rem;
-   
+.bottom-page a{
+    text-decoration: none;
 }
