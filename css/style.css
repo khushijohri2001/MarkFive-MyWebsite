@@ -551,7 +551,7 @@ font-size: x-large;
 
 .my-blogs h3{
     padding-bottom: 0.5rem;
-    color:#3d3d3d;
+    color:black;
 }
 .blog1{
     padding-bottom:6rem;
@@ -582,7 +582,46 @@ font-size: x-large;
 .bottom-page a{
     text-decoration: none;
 }
+.heading-blog{
+    font-size: 3rem;
+    font-weight: bolder;
+    padding-bottom: 2rem;
+    color: var(--secondary);
+}
+.new-blog{
+margin:6rem 10rem 3rem 18rem;
+}
 
+.new-blog .img-blog img{
+    width:60vw;
+    display: block;    
+}
+.blog-content {
+    margin-top: 2rem;
+}
+.blog-content p{
+  padding:0.5rem 0rem;
+  font-size: 1.2rem;
+  font-weight: 2.5rem;
+}
+
+.blog-content h2{
+    padding-top:2rem;
+}
+
+.back-btn{
+    text-decoration: none;
+    background-image:linear-gradient(to right,#2adeeb, #a517ba);
+    border-radius: 0.6rem;
+    color: white;
+    display: block;
+    font-size: 2rem;
+    max-width: 100px;
+    margin: 1rem 1rem 1rem 3rem;
+    padding: 0.3rem 0.5rem;
+    text-align: center;
+    font-weight: bolder;
+}
 @media (min-width: 576px){
     .container{
         max-width: 540px;
@@ -622,3 +661,4 @@ font-size: x-large;
         justify-content: flex-end;
         
 }
+
